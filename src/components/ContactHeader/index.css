@@ -1,0 +1,35 @@
+.contact-header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+    border-color: #ccc;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.contact-header:hover {
+    background-color: #d7d9dd;
+}
+
+.contact-header-contact-name {
+    display: flex;
+}
+
+
+.contact-header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius:50%; 
+}
+
+.contact-header-arrow {
+    width: 40px; 
+    height: 40px;
+}

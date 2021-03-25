@@ -1,0 +1,52 @@
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-list {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+    width: 100%;
+    margin: 0;
+    margin: 20px 0px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+.btn-container {
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-container button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#btn-delete {
+    background-color: #DD3446;
+}
+
+#btn-save {
+    background-color: #62DAFB;
+}
+
+.btn-container button:hover {
+    opacity: 0.8;
+}
+
+.btn-container button:first-child {
+    margin-right: 20px;
+}
+
+button:focus {
+    outline-width: 0;
+}
